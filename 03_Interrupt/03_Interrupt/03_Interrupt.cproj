@@ -12,9 +12,9 @@
     <OutputFileName>$(MSBuildProjectName)</OutputFileName>
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
-    <AssemblyName>EingabeMitPolling</AssemblyName>
-    <Name>EingabeMitPolling</Name>
-    <RootNamespace>EingabeMitPolling</RootNamespace>
+    <AssemblyName>03_Interrupt</AssemblyName>
+    <Name>03_Interrupt</Name>
+    <RootNamespace>03_Interrupt</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
@@ -53,6 +53,7 @@
       </ToolNumber>
       <ToolName xmlns="">Simulator</ToolName>
     </com_atmel_avrdbg_tool_simulator>
+    <StimuliFile>D:\VW\Microcontroller\ATMega\AtMega328\03_Interrupt\stimuli.stm</StimuliFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings>

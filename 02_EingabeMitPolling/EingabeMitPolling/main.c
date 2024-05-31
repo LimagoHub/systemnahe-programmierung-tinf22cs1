@@ -19,7 +19,7 @@ int main(void)
 	SET_BIT(DDRB, DDB5);
 	PORTD = 0b00001100;
 	PORTB &= ~(1 << PORTB5);
-	volatile int8_t x;
+	
     while (1) 
     {
 				
